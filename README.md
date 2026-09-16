@@ -30,6 +30,10 @@ Point Shepherd at a wiki or a folder of notes. Every ticket reads it before plan
 
 The pages link to each other, so the picture gets better the more you ship. Shepherd checks the wiki against itself and fixes what it can.
 
+Start it from a repository and Shepherd reads the code and writes the first pages itself.
+
+![Building a knowledgebase from a repository](docs/images/shot-learning.png)
+
 ![The knowledgebase, page by page](docs/images/shot-graph.png)
 
 ---
@@ -39,6 +43,8 @@ The pages link to each other, so the picture gets better the more you ship. Shep
 Drop rough ideas in. Shepherd ranks and sizes them, spots what blocks what, and rewrites the vague ones into something an agent can actually build.
 
 Label an issue in Jira or GitHub and it lands on the board on its own.
+
+![Triage: pick the agent, the strategy and the scope](docs/images/shot-triage.png)
 
 ---
 
