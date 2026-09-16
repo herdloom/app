@@ -1,0 +1,27 @@
+name: Something is missing
+description: A capability you need, or a rough edge worth smoothing.
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome. The most useful ones describe the work you were trying to
+        do, not the feature you imagined. Open-ended questions fit better in
+        [Discussions](https://github.com/julianoczkowski/shepherd-app/discussions).
+  - type: textarea
+    id: problem
+    attributes:
+      label: What were you trying to do
+      description: The task, and where Shepherd got in the way or stopped short.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+      description: Your idea, if you have one. Rough is fine.
+  - type: textarea
+    id: today
+    attributes:
+      label: How you handle it today
+      description: The workaround, if there is one.

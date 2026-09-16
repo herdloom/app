@@ -1,0 +1,67 @@
+# Shepherd — Software Licence
+
+Copyright © 2026 Julian Oczkowski. All rights reserved.
+
+Shepherd is proprietary software. It is licensed, not sold.
+
+## 1. What this repository contains
+
+This repository holds documentation, screenshots, the issue tracker and the
+discussions for Shepherd. It does not contain the Shepherd source code.
+
+Nothing here grants any licence to Shepherd's source code, its design, or any
+part of the product beyond the permissions below.
+
+## 2. Documentation and images
+
+The text and images in this repository may be quoted or linked for the purpose
+of writing about, reviewing, or discussing Shepherd, with attribution. They may
+not be republished as your own work, altered to misrepresent the product, or
+used to imply endorsement.
+
+## 3. The application
+
+If you are given access to a Shepherd build, you are granted a personal,
+revocable, non-exclusive, non-transferable licence to install and run it on
+machines you control, for your own work or your organisation's work, for as
+long as the beta lasts.
+
+You may not:
+
+- copy, publish, sell, rent, sublicense or otherwise distribute the application;
+- reverse engineer, decompile or disassemble it, or attempt to derive its source
+  code, except where that restriction is prohibited by law;
+- remove or alter any notice of copyright, trademark or authorship;
+- use it to build a competing product.
+
+## 4. Your code stays yours
+
+Shepherd claims no rights over the repositories, tickets, notes or any other
+content you work on with it. Output produced by the coding agents you connect is
+governed by your agreement with those providers, not by this licence.
+
+## 5. Beta software
+
+Shepherd is beta software provided "as is", without warranty of any kind, express
+or implied, including merchantability, fitness for a particular purpose and
+non-infringement. It runs coding agents that change files in your repositories.
+Keep your work in version control and review what lands.
+
+To the fullest extent permitted by law, the author is not liable for any claim,
+damage, data loss or other liability arising from the use of Shepherd.
+
+## 6. Feedback
+
+If you send feedback, bug reports or suggestions, you allow them to be used to
+improve Shepherd without obligation or compensation. Do not send anything
+confidential, and redact anything you would not want read.
+
+## 7. Trademarks
+
+"Shepherd" and the Shepherd mark are trademarks of Julian Oczkowski. This
+licence grants no trademark rights.
+
+## 8. Ending the licence
+
+This licence ends if its terms are broken, or when the beta ends. On ending,
+stop using the application and remove it from your machines.

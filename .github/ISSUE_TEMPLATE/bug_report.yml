@@ -1,0 +1,57 @@
+name: Something is broken
+description: A ticket did the wrong thing, the app got stuck, or something crashed.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. The more exact the steps, the faster this gets fixed.
+
+        **Before you post:** Settings → General → Report a problem builds a redacted
+        bundle with the logs and versions. Attaching it helps a lot. Check it over first;
+        you decide what to attach.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got instead.
+      placeholder: |
+        1. Created a ticket "…"
+        2. Dragged it to Queued
+        3. It planned, then …
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Shepherd version
+      description: Settings → General.
+      placeholder: "0.2.26"
+    validations:
+      required: true
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Which agent was running
+      multiple: true
+      options:
+        - Claude Code
+        - Codex
+        - Cursor
+        - GitHub Copilot
+        - OpenCode
+        - Antigravity
+        - Not an agent run
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "26.1"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, the report bundle, the ticket's activity log.
