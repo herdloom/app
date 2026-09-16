@@ -9,7 +9,7 @@ taken seriously.
 Please report privately, not in a public issue.
 
 - Use [GitHub's private advisory form](../../security/advisories/new) (preferred), or
-- email **[SECURITY EMAIL]** with "Shepherd security" in the subject.
+- email **hello@julianoczkowski.com** with "Shepherd security" in the subject.
 
 Include what you found, how to reproduce it, what an attacker could do with it,
 and the app version. A proof of concept helps; a working exploit is not needed.
