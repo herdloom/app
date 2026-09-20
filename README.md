@@ -24,6 +24,8 @@ When you do, the tickets land in the backlog with their dependencies and everyth
 
 Keep talking to the same conversation later and it adds to what you already accepted, rather than starting again.
 
+![An idea becomes three tickets, with sketches, acceptance criteria and dependencies](docs/images/shot-ideas.png)
+
 ---
 
 ## Plan, execute, review
@@ -75,6 +77,12 @@ Herdloom drives the coding agent CLIs you already have, using your own accounts 
 No hidden costs. Nothing runs through an account of ours.
 
 ![Live: agents working right now](docs/images/shot-live.png)
+
+---
+
+## See the rest of it
+
+[Every screen, in one page](docs/screenshots.md) — the board and the ticket drawer, Ideas, planning and approvals, triage, review and releases, knowledgebases, the live views, automation column by column, every settings page, and first launch.
 
 ---
 
