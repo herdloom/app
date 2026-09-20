@@ -1,6 +1,6 @@
 # Privacy
 
-Short version: Shepherd runs on your machine, and your code stays on your
+Short version: Herdloom runs on your machine, and your code stays on your
 machine. There is no telemetry, no analytics, and no account with us.
 
 ## What stays local
@@ -11,7 +11,7 @@ machine. There is no telemetry, no analytics, and no account with us.
 - Agent output and logs
 
 All of it lives in a folder on your Mac. Nothing is uploaded to us, because
-there is no "us" to upload to: Shepherd has no server and no account system.
+there is no "us" to upload to: Herdloom has no server and no account system.
 
 ## What leaves your machine, and only because you asked
 
@@ -28,7 +28,7 @@ Turn a connection off and that traffic stops.
 
 Tokens you enter are stored on your machine so the app can use them. They are
 not sent anywhere except to the service they belong to. Agent CLIs keep their
-own logins; Shepherd does not read them.
+own logins; Herdloom does not read them.
 
 ## Logs and reports
 
@@ -38,7 +38,7 @@ and shows you the file. Nothing is sent until you attach it yourself.
 
 ## Children
 
-Shepherd is a developer tool and is not directed at children.
+Herdloom is a developer tool and is not directed at children.
 
 ## Changes
 

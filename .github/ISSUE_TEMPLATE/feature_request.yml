@@ -7,12 +7,12 @@ body:
       value: |
         Ideas are welcome. The most useful ones describe the work you were trying to
         do, not the feature you imagined. Open-ended questions fit better in
-        [Discussions](https://github.com/julianoczkowski/shepherd-app/discussions).
+        [Discussions](https://github.com/herdloom/app/discussions).
   - type: textarea
     id: problem
     attributes:
       label: What were you trying to do
-      description: The task, and where Shepherd got in the way or stopped short.
+      description: The task, and where Herdloom got in the way or stopped short.
     validations:
       required: true
   - type: textarea

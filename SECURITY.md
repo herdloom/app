@@ -1,6 +1,6 @@
 # Security
 
-Thank you for looking. Shepherd runs on a developer's machine, works on their
+Thank you for looking. Herdloom runs on a developer's machine, works on their
 source code, and drives agents that can change files, so security reports are
 taken seriously.
 
@@ -9,7 +9,7 @@ taken seriously.
 Please report privately, not in a public issue.
 
 - Use [GitHub's private advisory form](../../security/advisories/new) (preferred), or
-- email **hello@julianoczkowski.com** with "Shepherd security" in the subject.
+- email **hello@julianoczkowski.com** with "Herdloom security" in the subject.
 
 Include what you found, how to reproduce it, what an attacker could do with it,
 and the app version. A proof of concept helps; a working exploit is not needed.
@@ -27,9 +27,9 @@ you would rather not be.
 
 ## In scope
 
-- The Shepherd application and the local service it runs
-- The way Shepherd stores credentials, tokens and agent output on disk
-- The way Shepherd isolates work in git worktrees and branches
+- The Herdloom application and the local service it runs
+- The way Herdloom stores credentials, tokens and agent output on disk
+- The way Herdloom isolates work in git worktrees and branches
 - Anything that lets one project's work reach another's, or reach the main checkout unasked
 
 ## Out of scope

@@ -2,7 +2,7 @@
 
 <img src="docs/images/logo.png" width="72" alt="">
 
-# Shepherd
+# Herdloom
 
 **A kanban board for coding agents.**
 
@@ -11,6 +11,18 @@ Write a ticket. An agent picks it up, works in its own branch, and hands the cha
 </div>
 
 ![The board: two projects, agents at work](docs/images/hero-board.png)
+
+---
+
+## Start with an idea, not a backlog
+
+You do not have to know the tickets before you begin. Describe the outcome you want, and the agent reads the repository, asks what it needs to know, and proposes a set of tickets — each with acceptance criteria, a size, a concept sketch, and what it depends on.
+
+Ask for a smaller first version, change the scope, or add what it missed. Nothing reaches the board until you accept.
+
+When you do, the tickets land in the backlog with their dependencies and everything you attached. Work that needs a foundation waits for that foundation to merge before it starts.
+
+Keep talking to the same conversation later and it adds to what you already accepted, rather than starting again.
 
 ---
 
@@ -26,11 +38,11 @@ Every ticket gets its own git worktree and its own branch, so agents never edit 
 
 ## It remembers
 
-Point Shepherd at a wiki or a folder of notes. Every ticket reads it before planning, and every landed ticket is written back into it.
+Point Herdloom at a wiki or a folder of notes. Every ticket reads it before planning, and every landed ticket is written back into it.
 
-The pages link to each other, so the picture gets better the more you ship. Shepherd checks the wiki against itself and fixes what it can.
+The pages link to each other, so the picture gets better the more you ship. Herdloom checks the wiki against itself and fixes what it can.
 
-Start it from a repository and Shepherd reads the code and writes the first pages itself.
+Start it from a repository and Herdloom reads the code and writes the first pages itself. Ideas reads it too, so proposals follow the conventions you already have.
 
 ![Building a knowledgebase from a repository](docs/images/shot-learning.png)
 
@@ -40,7 +52,7 @@ Start it from a repository and Shepherd reads the code and writes the first page
 
 ## It triages and clarifies
 
-Drop rough ideas in. Shepherd ranks and sizes them, spots what blocks what, and rewrites the vague ones into something an agent can actually build.
+Drop rough ideas in. Herdloom ranks and sizes them, spots what blocks what, and rewrites the vague ones into something an agent can actually build.
 
 Label an issue in Jira or GitHub and it lands on the board on its own.
 
@@ -58,7 +70,7 @@ Every column has a switch: wait for you, or run on its own. Start assisted and a
 
 ## Your agents, your subscriptions
 
-Shepherd drives the coding agent CLIs you already have, using your own accounts and your own subscriptions. Run one, or all of them at the same time, on the same board.
+Herdloom drives the coding agent CLIs you already have, using your own accounts and your own subscriptions. Run one, or all of them at the same time, on the same board.
 
 No hidden costs. Nothing runs through an account of ours.
 
@@ -75,7 +87,7 @@ No hidden costs. Nothing runs through an account of ours.
 
 ## Status
 
-Shepherd is in private beta. There is no public download yet.
+Herdloom is in private beta. There is no public download yet.
 
 Want in? [Open a discussion](../../discussions) and say what you would use it for.
 
@@ -88,17 +100,17 @@ Please include the app version and which agent CLI you were using. Screenshots h
 
 ## Security and privacy
 
-Shepherd runs on your machine and works on your code. It does not send your source anywhere, and there is no telemetry.
+Herdloom runs on your machine and works on your code. It does not send your source anywhere, and there is no telemetry.
 
 - [Security policy](SECURITY.md) — how to report a vulnerability
 - [Privacy](PRIVACY.md) — what the app touches and what leaves your machine
 
 ## Licence
 
-Shepherd is proprietary software. See [LICENSE](LICENSE).
+Herdloom is proprietary software. See [LICENSE](LICENSE).
 
 This repository holds the public documentation, the issue tracker and the discussions. The source is not published.
 
 <div align="center">
-<sub>© 2026 Julian Oczkowski. Shepherd and the Shepherd mark are trademarks of Julian Oczkowski.</sub>
+<sub>© 2026 Julian Oczkowski. Herdloom and the Herdloom mark are trademarks of Julian Oczkowski.</sub>
 </div>

@@ -24,7 +24,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Shepherd version
+      label: Herdloom version
       description: Settings → General.
       placeholder: "0.2.26"
     validations:
