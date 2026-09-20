@@ -8,6 +8,10 @@
 
 Write a ticket. An agent picks it up, works in its own branch, and hands the change back for review.
 
+[![YouTube](https://img.shields.io/badge/YouTube-%40aiforwork__app-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@aiforwork_app)
+[![Medium](https://img.shields.io/badge/Medium-%40julian.oczkowski-000000?logo=medium&logoColor=white)](https://medium.com/@julian.oczkowski)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Julian%20Oczkowski-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julianoczkowski/)
+
 </div>
 
 ![The board: two projects, agents at work](docs/images/hero-board.png)
@@ -118,6 +122,18 @@ Herdloom runs on your machine and works on your code. It does not send your sour
 Herdloom is proprietary software. See [LICENSE](LICENSE).
 
 This repository holds the public documentation, the issue tracker and the discussions. The source is not published.
+
+---
+
+## Author
+
+<img width="236" height="236" alt="avatar2" src="https://github.com/user-attachments/assets/5677ddb5-6b0b-4054-a70b-a143761dd307" />
+
+Built by **Julian Oczkowski** — I build AI tools for knowledge work.
+
+- 🎥 **[YouTube · @aiforwork_app](https://www.youtube.com/@aiforwork_app)** — walkthroughs and AI-for-work tutorials
+- ✍️ **[Medium](https://medium.com/@julian.oczkowski)** — deep dives on product and AI workflows
+- 💼 **[LinkedIn](https://www.linkedin.com/in/julianoczkowski/)** — connect and follow along
 
 <div align="center">
 <sub>© 2026 Julian Oczkowski. Herdloom and the Herdloom mark are trademarks of Julian Oczkowski.</sub>
