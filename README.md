@@ -4,9 +4,13 @@
 
 # Herdloom
 
+### [herdloom.com](https://herdloom.com)
+
 **A kanban board for coding agents.**
 
 Write a ticket. An agent picks it up, works in its own branch, and hands the change back for review.
+
+[What Herdloom is](https://herdloom.com/start/what-herdloom-is/) · [Documentation](https://herdloom.com) · [Every screen](docs/screenshots.md)
 
 [![YouTube](https://img.shields.io/badge/YouTube-%40aiforwork__app-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@aiforwork_app)
 [![Medium](https://img.shields.io/badge/Medium-%40julian.oczkowski-000000?logo=medium&logoColor=white)](https://medium.com/@julian.oczkowski)
@@ -87,6 +91,8 @@ No hidden costs. Nothing runs through an account of ours.
 ## See the rest of it
 
 [Every screen, in one page](docs/screenshots.md) — the board and the ticket drawer, Ideas, planning and approvals, triage, review and releases, knowledgebases, the live views, automation column by column, every settings page, and first launch.
+
+The full documentation lives at **[herdloom.com](https://herdloom.com)**. Start with [what Herdloom is](https://herdloom.com/start/what-herdloom-is/), then [your first ticket](https://herdloom.com/start/first-ticket/).
 
 ---
 
