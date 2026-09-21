@@ -107,7 +107,7 @@ The full documentation lives at **[herdloom.com](https://herdloom.com)**. Start 
 
 Herdloom is in private beta. There is no public download yet.
 
-Want in? [Open a discussion](../../discussions) and say what you would use it for.
+Want in? Read [how to get on the beta](../../discussions/2), then ask in [Beta Access](../../discussions/categories/beta-access).
 
 ## Feedback and problems
 
