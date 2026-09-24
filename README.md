@@ -1,24 +1,28 @@
 <div align="center">
 
-<img src="docs/images/logo.png" width="72" alt="">
+<img src="assets/logo.png" width="72" alt="">
 
 # Herdloom
 
 ### [herdloom.com](https://herdloom.com)
 
+**[Join the beta](https://github.com/herdloom/app/discussions/2)**
+
 **A kanban board for coding agents.**
 
-Write a ticket. An agent picks it up, works in its own branch, and hands the change back for review.
+Turn ideas into tickets. Bundle related tickets into a work item, let your agents build them together, and review the result before it ships.
 
-[What Herdloom is](https://herdloom.com/start/what-herdloom-is/) · [Documentation](https://herdloom.com) · [Every screen](docs/screenshots.md)
+[What Herdloom is](https://herdloom.com/start/what-herdloom-is/) · [Documentation](https://herdloom.com/start/what-herdloom-is/)
 
 [![YouTube](https://img.shields.io/badge/YouTube-%40aiforwork__app-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@aiforwork_app)
 [![Medium](https://img.shields.io/badge/Medium-%40julian.oczkowski-000000?logo=medium&logoColor=white)](https://medium.com/@julian.oczkowski)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Julian%20Oczkowski-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julianoczkowski/)
 
-</div>
+[![Watch the Herdloom overview video](https://herdloom.com/media/herdloom-overview-v1.webp)](https://herdloom.com/media/herdloom-overview-v1.mp4)
 
-![The board: two projects, agents at work](docs/images/hero-board.png)
+**[▶ Watch the overview · 1:39](https://herdloom.com/media/herdloom-overview-v1.mp4)**
+
+</div>
 
 ---
 
@@ -28,35 +32,29 @@ You do not have to know the tickets before you begin. Describe the outcome you w
 
 Ask for a smaller first version, change the scope, or add what it missed. Nothing reaches the board until you accept.
 
-When you do, the tickets land in the backlog with their dependencies and everything you attached. Work that needs a foundation waits for that foundation to merge before it starts.
+When you do, the tickets land in the backlog with their dependencies and everything you attached. Bundle the tickets that should ship together into a work item. They run in dependency order, building on the work already in their shared checkout.
 
 Keep talking to the same conversation later and it adds to what you already accepted, rather than starting again.
-
-![An idea becomes three tickets, with sketches, acceptance criteria and dependencies](docs/images/shot-ideas.png)
 
 ---
 
 ## Plan, execute, review
 
-A stronger model plans. A cheaper one builds. A third one reviews before you see anything.
+Choose which enabled agents plan, build, and review. Planning and independent review are configurable, so you can match the workflow to the task.
 
-Every ticket gets its own git worktree and its own branch, so agents never edit the same files at the same time, and nothing lands on your main checkout until you say so.
+Each [work item](https://herdloom.com/guides/work-items/) has one checkout, one branch, and one pull request. Its tickets run one at a time; separate work items can run in parallel.
 
-![A reviewed branch, its diff and the verdict](docs/images/shot-review.png)
+Run the combined app and inspect the changes. You can run a combined acceptance check or approve work you have checked yourself, then create a PR or merge into the target branch. GitHub branch rules still apply. The [Changes page](https://herdloom.com/guides/sync-to-github/) handles local commits, pulling updates, and publishing changes.
 
 ---
 
 ## It remembers
 
-Point Herdloom at a wiki or a folder of notes. Every ticket reads it before planning, and every landed ticket is written back into it.
+Point Herdloom at a wiki or a folder of notes. Relevant findings travel from Ideas into planning and execution, so agents can reuse current context instead of repeating the same research. Herdloom refreshes it when needed and teaches the knowledgebase as work lands.
 
 The pages link to each other, so the picture gets better the more you ship. Herdloom checks the wiki against itself and fixes what it can.
 
 Start it from a repository and Herdloom reads the code and writes the first pages itself. Ideas reads it too, so proposals follow the conventions you already have.
-
-![Building a knowledgebase from a repository](docs/images/shot-learning.png)
-
-![The knowledgebase, page by page](docs/images/shot-graph.png)
 
 ---
 
@@ -66,15 +64,11 @@ Drop rough ideas in. Herdloom ranks and sizes them, spots what blocks what, and 
 
 Label an issue in Jira or GitHub and it lands on the board on its own.
 
-![Triage: pick the agent, the strategy and the scope](docs/images/shot-triage.png)
-
 ---
 
 ## Assisted, or hands-off for the brave
 
 Every column has a switch: wait for you, or run on its own. Start assisted and approve what matters. Let go when the agents have earned it.
-
-![Automation, column by column](docs/images/shot-automation.png)
 
 ---
 
@@ -82,17 +76,13 @@ Every column has a switch: wait for you, or run on its own. Start assisted and a
 
 Herdloom drives the coding agent CLIs you already have, using your own accounts and your own subscriptions. Run one, or all of them at the same time, on the same board.
 
-No hidden costs. Nothing runs through an account of ours.
-
-![Live: agents working right now](docs/images/shot-live.png)
+Your agents use your existing provider accounts and plans. Herdloom does not resell model access.
 
 ---
 
 ## See the rest of it
 
-[Every screen, in one page](docs/screenshots.md) — the board and the ticket drawer, Ideas, planning and approvals, triage, review and releases, knowledgebases, the live views, automation column by column, every settings page, and first launch.
-
-The full documentation lives at **[herdloom.com](https://herdloom.com)**. Start with [what Herdloom is](https://herdloom.com/start/what-herdloom-is/), then [your first ticket](https://herdloom.com/start/first-ticket/).
+The current documentation and screenshots live at **[herdloom.com](https://herdloom.com)**. Start with [what Herdloom is](https://herdloom.com/start/what-herdloom-is/), then [your first ticket](https://herdloom.com/start/first-ticket/).
 
 ---
 
@@ -107,7 +97,7 @@ The full documentation lives at **[herdloom.com](https://herdloom.com)**. Start 
 
 Herdloom is in private beta. There is no public download yet.
 
-Want in? Read [how to get on the beta](../../discussions/2), then ask in [Beta Access](../../discussions/categories/beta-access).
+[Join the beta](https://github.com/herdloom/app/discussions/2) for access instructions.
 
 ## Feedback and problems
 
@@ -118,7 +108,7 @@ Please include the app version and which agent CLI you were using. Screenshots h
 
 ## Security and privacy
 
-Herdloom runs on your machine and works on your code. It does not send your source anywhere, and there is no telemetry.
+Herdloom runs locally and has no telemetry. Connected coding agents may send prompts and code to their providers through your own accounts. GitHub and Jira connections use the services you enable.
 
 - [Security policy](SECURITY.md) — how to report a vulnerability
 - [Privacy](PRIVACY.md) — what the app touches and what leaves your machine
@@ -127,7 +117,7 @@ Herdloom runs on your machine and works on your code. It does not send your sour
 
 Herdloom is proprietary software. See [LICENSE](LICENSE).
 
-This repository holds the public documentation, the issue tracker and the discussions. The source is not published.
+This repository is the public home for beta access, issues, discussions, and policies. Documentation lives at [herdloom.com](https://herdloom.com). The application source is not published.
 
 ---
 
