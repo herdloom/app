@@ -26,6 +26,8 @@ Turn ideas into tickets. Bundle related tickets into a work item, let your agent
 
 ---
 
+<sub>App screenshots use example projects. Click an image to view it at full resolution.</sub>
+
 ## Start with an idea, not a backlog
 
 You do not have to know the tickets before you begin. Describe the outcome you want, and the agent reads the repository, asks what it needs to know, and proposes a set of tickets — each with acceptance criteria, a size, a concept sketch, and what it depends on.
@@ -35,6 +37,8 @@ Ask for a smaller first version, change the scope, or add what it missed. Nothin
 When you do, the tickets land in the backlog with their dependencies and everything you attached. Bundle the tickets that should ship together into a work item. They run in dependency order, building on the work already in their shared checkout.
 
 Keep talking to the same conversation later and it adds to what you already accepted, rather than starting again.
+
+![An Ideas conversation with a project brief, three proposed tickets and acceptance criteria](assets/screens/ideas.webp)
 
 ---
 
@@ -46,6 +50,8 @@ Each [work item](https://herdloom.com/guides/work-items/) has one checkout, one 
 
 Run the combined app and inspect the changes. You can run a combined acceptance check or approve work you have checked yourself, then create a PR or merge into the target branch. GitHub branch rules still apply. The [Changes page](https://herdloom.com/guides/sync-to-github/) handles local commits, pulling updates, and publishing changes.
 
+![Three related tickets on one work-item branch, with a passed combined acceptance check](assets/screens/work-item.webp)
+
 ---
 
 ## It remembers
@@ -56,6 +62,8 @@ The pages link to each other, so the picture gets better the more you ship. Herd
 
 Start it from a repository and Herdloom reads the code and writes the first pages itself. Ideas reads it too, so proposals follow the conventions you already have.
 
+![The ticket drawer reuses knowledge from planning, with its saved finding and source reference](assets/screens/knowledge.webp)
+
 ---
 
 ## It triages and clarifies
@@ -64,11 +72,15 @@ Drop rough ideas in. Herdloom ranks and sizes them, spots what blocks what, and 
 
 Label an issue in Jira or GitHub and it lands on the board on its own.
 
+![The triage dialog with agent selection, dependency-first ranking and scope controls](assets/screens/triage.webp)
+
 ---
 
 ## Assisted, or hands-off for the brave
 
 Every column has a switch: wait for you, or run on its own. Start assisted and approve what matters. Let go when the agents have earned it.
+
+![Automation controls let you choose where agents run and where they wait for you](assets/screens/automation.webp)
 
 ---
 
@@ -78,11 +90,15 @@ Herdloom drives the coding agent CLIs you already have, using your own accounts 
 
 Your agents use your existing provider accounts and plans. Herdloom does not resell model access.
 
+![Connected coding agents with sign-in status, concurrency and permission controls](assets/screens/agents.webp)
+
 ---
 
 ## See the rest of it
 
 The current documentation and screenshots live at **[herdloom.com](https://herdloom.com)**. Start with [what Herdloom is](https://herdloom.com/start/what-herdloom-is/), then [your first ticket](https://herdloom.com/start/first-ticket/).
+
+![The Live flock view shows working, reviewing and waiting tickets in an example project](assets/screens/live.webp)
 
 ---
 
