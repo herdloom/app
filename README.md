@@ -18,6 +18,8 @@ Turn ideas into tickets. Bundle related tickets into a work item, let your agent
 [![Medium](https://img.shields.io/badge/Medium-%40julian.oczkowski-000000?logo=medium&logoColor=white)](https://medium.com/@julian.oczkowski)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Julian%20Oczkowski-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julianoczkowski/)
 
+![Herdloom’s board shows tickets moving from backlog through planning, execution and review to done](assets/screens/board.webp)
+
 [![Watch the Herdloom overview video](https://herdloom.com/media/herdloom-overview-v1.webp)](https://herdloom.com/media/herdloom-overview-v1.mp4)
 
 **[▶ Watch the overview · 1:39](https://herdloom.com/media/herdloom-overview-v1.mp4)**
@@ -50,7 +52,7 @@ Each [work item](https://herdloom.com/guides/work-items/) has one checkout, one 
 
 Run the combined app and inspect the changes. You can run a combined acceptance check or approve work you have checked yourself, then create a PR or merge into the target branch. GitHub branch rules still apply. The [Changes page](https://herdloom.com/guides/sync-to-github/) handles local commits, pulling updates, and publishing changes.
 
-![Three related tickets on one work-item branch, with a passed combined acceptance check](assets/screens/work-item.webp)
+![The board alongside a ticket review, with the agent’s changes, test results and independent review](assets/screens/review.webp)
 
 ---
 
@@ -62,7 +64,7 @@ The pages link to each other, so the picture gets better the more you ship. Herd
 
 Start it from a repository and Herdloom reads the code and writes the first pages itself. Ideas reads it too, so proposals follow the conventions you already have.
 
-![The ticket drawer reuses knowledge from planning, with its saved finding and source reference](assets/screens/knowledge.webp)
+![The Knowledge page with engineering, design-system and product-decision knowledgebases linked to projects](assets/screens/knowledgebases.webp)
 
 ---
 
